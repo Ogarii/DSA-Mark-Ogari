@@ -6,7 +6,7 @@ import java.util.Scanner;
         int n = nums.length;
         k = k % n;  // Handle cases where k >= n
 
-        // Use cyclic swaps to rotate elements
+       
         int start = 0;
         int count = 0;
         while (count < n) {
